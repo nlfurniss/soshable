@@ -1,0 +1,76 @@
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans);*/
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v7/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+body {
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.header {
+	background-color: #3B96D8;
+	padding: 40px 0 40px 0;
+	text-align: center;
+	width: 30%;
+}
+
+.title {
+	color: white;
+	font-size: 65px;
+	font-weight: 500;
+	margin: 0 0 20px;
+}
+
+.tagline {
+	color: white;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 26px;
+	font-weight: 300;
+}
+
+.categories {
+	background-color: black;
+	width: 30%;
+}
+
+.category {
+	color: white;
+	border-bottom: 1px solid #808080;
+	font-size: 33px;
+	padding: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.categoryImage {
+	border-radius: 35px;
+	height: 50%;
+	position: relative;
+	right: 15px;
+	vertical-align: middle;
+	width: 25%;
+}
+
+.category:hover {
+	/**/
+}
+
+.category:hover img {
+	visibility: hidden;
+}
+
+.sosh {
+	color: #4885B0;
+}

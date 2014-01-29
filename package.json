@@ -1,0 +1,18 @@
+{
+  "name": "soshable",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.4.7",
+    "jade": "*",
+    "request": "nlfurniss/request",
+    "connect-assets": "2.5.x",
+    "underscore": "*",
+  },
+    "engines": {
+      "node": "0.10.24"
+  }
+}
