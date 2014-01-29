@@ -6,11 +6,10 @@ window.Soshable = {
     Data: window.soshableData,
 
     initialize: function() {
-
         this.categories = new Soshable.Collections.Categories(Soshable.Data.categories);
         this.neighborhoods = new Soshable.Collections.Neighborhoods(Soshable.Data.neighborhoods);
 
-        
+        this.categoryList = new Soshable.Views.CategoryList({collection: this.categories}).render();
     }
 }
 

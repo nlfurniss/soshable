@@ -1,5 +1,6 @@
 ul
   each cat in categories
-    li.category
-      img.categoryImage(src="#{cat.image}")
-      a(href="#") #{cat.name}
+    li.category(data-id="#{cat.id}")
+      a(href="#")
+        img.categoryImage(src="#{cat.image}")
+        = cat.name

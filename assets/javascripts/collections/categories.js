@@ -1,3 +1,1 @@
-Soshable.Collections.Categories = Backbone.Collection.extend({
-
-});
+Soshable.Collections.Categories = Backbone.Collection;

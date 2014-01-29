@@ -1,3 +1,1 @@
-Soshable.Collections.Neighborhoods = Backbone.Collection.extend({
-
-});
+Soshable.Collections.Neighborhoods = Backbone.Collection;
