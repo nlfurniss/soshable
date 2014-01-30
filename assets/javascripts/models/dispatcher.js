@@ -1,0 +1,1 @@
+Soshable.Models.Dispatcher = Backbone.Model;

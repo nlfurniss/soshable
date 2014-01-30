@@ -5,4 +5,6 @@
 
 //= require_tree ./collections
 //= require_tree ./views
+//= require_tree ./models
 //= require ../templates/templates
+//= require_tree routers

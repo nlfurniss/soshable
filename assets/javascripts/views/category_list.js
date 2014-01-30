@@ -4,19 +4,21 @@ Soshable.Views.CategoryList = Backbone.View.extend({
     template: 'categories',
 
     events: {
-        'click a' : 'toggleActive'
+        'click a' : 'fetchActivities'
     },
 
     render: function() {
         jade.render(this.el, this.template, {categories: this.collection.toJSON()});
+        this.$('li a').first().addClass('active');
         return this;
     },
 
-    toggleActive: function(event) {
-        console.log('click');
+    fetchActivities: function(event) {
         event.preventDefault();
+        var $target = $(event.target);
         this.$('li a').removeClass('active');
-        $(event.target).addClass('active');
+        $target.addClass('active');
+        Soshable.dispatcher.trigger('fetchActivities', $target.attr('data-id'));
     }
 
 });

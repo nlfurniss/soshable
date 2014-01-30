@@ -7,6 +7,7 @@
 }
 
 body {
+	background-color: #F2F0EF; /*#DCDCDC;*/
 	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -26,11 +27,19 @@ a:hover {
 	width: 30%;
 }
 
-.title {
+.headline {
 	color: white;
 	font-size: 65px;
 	font-weight: 500;
 	margin: 0 0 20px;
+}
+
+.title {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 55px;
+	font-weight: 200;
+	letter-spacing: 1px;
+	text-align: center;
 }
 
 .tagline {
@@ -48,8 +57,8 @@ a:hover {
 .category {
 	color: white;
 	border-bottom: 1px solid #808080;
-	font-size: 33px;
-	padding: 20px;
+	font-size: 28px;
+	/*padding: 20px;*/
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -63,6 +72,23 @@ a:hover {
 	width: 25%;
 }
 
+.category a {
+	display: block;
+	padding: 20px;
+}
+
 .category a.active {
 	color: #4885B0;
+}
+
+#activities {
+	padding: 75px 0 0 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 70%;
+}
+
+#activityGrid {
+	margin: 35px auto;
 }

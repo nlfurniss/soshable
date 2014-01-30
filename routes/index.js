@@ -13,8 +13,8 @@ exports.root = function(req, res) {
     // });
 };
 
-exports.getEvents = function(req, res) {
-	Sosh.get_events(req.params.cat, function(err, resp, events) {
+exports.getActivities = function(req, res) {
+	Sosh.getActivities(req.params.cat, function(err, resp, events) {
 		if (err) {
 			res.send(err);
 		} else {

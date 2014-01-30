@@ -2,16 +2,14 @@ extends layout
 
 block content
   header.header
-    h1.title= title
+    h1.headline= title
     h2.tagline See what people love on 
       a(href="sosh.com") Sosh
 
   section#categories
-     ul
-       li.category
-         img.categoryImage(src="https://dm8upoct4laqm.cloudfront.net/thumbs/74/03/7403c42039d9b4fdf5a2a38faea3e891.jpg")
-         a(href="#") Everything
-
+  section#activities
+    h1.title The Most Bookmarked Everything
+    section#activityGrid
 
   script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js")
   != js('application.js')
