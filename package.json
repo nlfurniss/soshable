@@ -10,6 +10,7 @@
     "jade": "*",
     "request": "nlfurniss/request",
     "connect-assets": "2.5.x",
+    "connect-assets-jade": "0.1.x",
     "underscore": "*",
   },
     "engines": {
